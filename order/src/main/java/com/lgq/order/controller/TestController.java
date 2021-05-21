@@ -23,4 +23,9 @@ public class TestController {
     public String testFeignLogin(){
         return loginFeign.login();
     }
+
+    @GetMapping("user")
+    public String user(){
+        return "user";
+    }
 }

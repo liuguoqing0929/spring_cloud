@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="core" />
-        <module name="feign" />
         <module name="spring_cloud" />
-        <module name="order" />
+        <module name="gateway" />
         <module name="login" />
+        <module name="order" />
+        <module name="feign" />
+        <module name="core" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="core" options="-parameters" />
       <module name="feign" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="login" options="-parameters" />
       <module name="order" options="-parameters" />
     </option>
